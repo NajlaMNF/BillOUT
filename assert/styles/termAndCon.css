@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.2em;
+    margin: 0;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: #fff;
+    height: 1000px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius:0px;
+    box-shadow: 0 2px 10px rgba(177, 72, 72, 0.1);
+    line-height: 50px;
+}
+
+h1 {
+    padding-top: 20px;
+    color: #042e0f;
+    font-size: 1.8em;
+}
+
+h2 {
+    color: #09551c;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.accept {
+    background-color: #30b950;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.accept:hover {
+    background-color: #218838;
+}
+
+.hidden {
+    display: none;
+}
+
+#confirmation-message {
+    margin-top: 15px;
+    color: #28a745;
+}

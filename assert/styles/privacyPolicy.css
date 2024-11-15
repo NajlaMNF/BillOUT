@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman';
+}
+
+h1{ 
+    color:rgb(6, 39, 6);
+    text-align:center;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+.path .home {
+    color: blue;
+}
+
+.path .separator {
+    color: blue;
+}
+
+.path .privacy {
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1b0909;
+    padding: 5px 10px;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.policy-section {
+    margin-top: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    color:rgb(21, 75, 21);
+}
+
+
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-right: 100px;
+    margin-left:100px;
+}

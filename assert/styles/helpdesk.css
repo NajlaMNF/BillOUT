@@ -1,0 +1,149 @@
+body{
+    background-color: white;
+}
+
+#helpBox {
+    border: none;
+    width: 70%;
+    min-height: 300px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#helph1 {
+
+    float: inline-start;
+    font-size: 50px;
+    margin-top: 5px;
+    color: rgb(8, 71, 8);
+
+}
+
+#helpText {
+    border: none;
+    background-color: white;
+    color: rgb(22, 41, 22);
+    width: 50%;
+    font-size: 20px;
+    min-height: 100px;
+    margin-left: 70px;
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#helpImg {
+
+    border: none;
+    height: 700px;
+    width: 40%;
+    float: right;
+    margin-top: -300px;
+    margin-right: 10px;
+
+}
+
+.helpBtns {
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    text-indent: 200px;
+    width: 50% ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#startBtn {
+    width: 50% ;
+    margin: 50 px auto;
+    background-color: #08360e;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 10px;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    margin-top: 30px;
+    font-size: 20px;
+   
+
+}
+
+#learnBtn {
+
+    width: 50% ;
+    margin: 50 px auto;
+    background-color: #08360e;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 10px;
+    margin-right: 30px;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#startBtn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#learnBtn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+
+#BtnA{
+
+    border: black;
+    margin-top: 100px;
+    width: 400px;
+    margin-right: 250px auto;
+    height: 100px;
+    background-color: rgb(3, 27, 27);
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttons{
+
+    margin-left: 25%;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+
+#BtnR {
+
+    border: black;
+    margin-top: 100px;
+    width: 400px;
+    margin-right: 250px auto;
+    height: 100px;
+    background-color: rgb(3, 27, 27);
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+#BtnA:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#BtnR:hover {
+    background-color: grey;
+    cursor: pointer;
+}

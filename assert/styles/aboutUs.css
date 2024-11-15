@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+.para1{
+    text-align: center;
+}
+.bordered {
+    border-radius: 10px;
+    border: 1px solid black; 
+   text-align: center;
+   background-image: url(image/download.jpeg);
+}
+.document{
+    border-radius: 10px;
+    border: 1px solid black;
+    background: linear-gradient(144deg, rgb(22, 128, 16) 0%, rgb(67, 49, 38) 100%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);    color: aliceblue;
+}
+
+.document p{
+    font-size: 20px;
+}
+.h2-container{
+    padding: 40px;
+}
+
+.h2-container h4{
+    padding: 40px;
+}
+.imgage2{
+    padding: 50px;
+    width: 20%;
+    height: 30px;
+    margin: 50px;
+}

@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 5px solid #ddd;
+    text-align: center;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}

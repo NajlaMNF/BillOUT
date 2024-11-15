@@ -1,0 +1,106 @@
+:root{
+  --color-primary: #0B3D2E;
+  --color-secondary: #F4D35E;
+  --color-black: #333333;
+  --color-white: white;
+  --color-5: #DAA520;
+  --color-6: #00796B;
+  --color-7: #004D40;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .profile-container {
+    font-family: Arial;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-family: Arial;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .profile-content button {
+    padding: 10px 15px;
+    background-color: #fbbd08;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+  }
+  
+  .profile-content button:hover {
+    background-color: var(--color-primary);
+  }
+  
+  .profile-section,.reminder-section{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  h2 {
+    border-bottom: 2px solid #fbbd08;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .profile-section,
+  .reminder-section{
+    flex: 1 1 45%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .updateButton {
+    padding: 10px 15px;
+    background-color: #fbbd08;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+  }
+  
+  
+  
+ 

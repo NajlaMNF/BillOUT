@@ -1,0 +1,38 @@
+table {
+    margin: 40px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: green; 
+    color: white; 
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none;
+}
+
+.btn-container {
+    margin-top: 20px; 
+    margin-left: 20px;
+}

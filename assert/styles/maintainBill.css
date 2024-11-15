@@ -1,0 +1,70 @@
+h1 {
+    color: rgb(255, 255, 255); 
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,    
+        -1px 1px 0 #000,    
+        1px 1px 0 #000;    
+}
+
+.frist {
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    background: linear-gradient(144deg, rgb(40, 236, 30) 0%, rgb(67, 49, 38) 100%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+.container {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin: 10px;
+}
+
+.description {
+    color: black;
+    border: 1px solid black; 
+    background-color: white; 
+    border-radius: 10px; 
+    margin: 2%;
+    padding: 3%; 
+    width: 50%; 
+    text-align: left;
+}
+
+.title {
+    text-align: center; 
+}
+
+.buton {
+    position: absolute; 
+    top: 120px; 
+   width: 36%;
+    right: 10px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+}
+
+.add {
+    width: 100%; 
+    height: 40px; 
+    text-align: center; 
+    font-size: 14px; 
+    background-color: rgb(223, 232, 214); 
+    border: 1px solid black; 
+    border-radius: 5%; 
+    cursor: pointer; 
+    margin: 5px 0;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.add:hover {
+    background-color: rgb(9, 163, 48);
+    color: white;
+}

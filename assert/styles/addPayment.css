@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inputgroups {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    background-image: url('pic1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+            
+}
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.green{
+    background-color: #0B3D2E;
+}
+.inputgroups img {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.inputgroups label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.inputgroups input[type="number"],
+.inputgroups input[type="email"]
+ {
+    width: 105%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-color: #28a745; 
+    outline: none;
+    color: #218838;
+    background-color: #b4ebbf;
+}
+.inputgroups select{
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-color: #28a745; 
+    outline: none;
+    color: #218838;
+    background-color: #b4ebbf;
+}
+.inputgroups input[type="submit"] {
+    width: 50%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.inputgroups input[type="submit"]:hover {
+    background-color: #218838;
+}

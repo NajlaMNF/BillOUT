@@ -1,0 +1,134 @@
+:root{
+    --color-primary: #0B3D2E;
+    --color-secondary: #F4D35E;
+    --color-black: #333333;
+    --color-white: white;
+    --color-5: #DAA520;
+    --color-6: #00796B;
+    --color-7: #004D40;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0EAD6;
+}
+
+.menu_bar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: var(--color-primary);
+}
+
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.logo span{
+    color: #DAA520;
+}
+
+.slogan{
+    color: var(--color-white);
+    font-family: Arial;
+    position: absolute;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 18px;
+
+    transform: all 0.3s;
+}
+
+.menu_bar ul li a:hover{
+    color: var(--color-secondary);
+}
+
+.dropdown_menu{
+    display: none;
+}
+.menu_bar ul li:hover .dropdown_menu{
+    display:block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-primary);
+}
+
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.in{
+    width: 150px;
+    float: left;
+    height: 20px;
+}
+
+.sin{
+    font-family: 'Times New Roman';
+    width: 80px;
+    height: 30px;
+    background: white;
+    border: 1px solid white;
+    color: var(--color-primary);
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.sin:hover{
+    color: var(--color-5);
+}
+
+.lin{
+    font-family: 'Times New Roman';
+    width: 60px;
+    height: 30px;
+    background-color: var(--color-primary);
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.lin:hover{
+    color: var(--color-secondary);
+}
+
+.logout .sin{
+    border-radius: 5px;
+}
